@@ -32,7 +32,7 @@ const FeatureItem = ({title, icon, description}:
 
 const Features = () => {
   return (
-    <section className="border-2 border-red-500 flex-col flexCenter
+    <section className="flex-col flexCenter
     overflow-hidden bg-feature-bg bg-center bo-no-repeat py-24">
       <div className="flex max-container padding-container relative w-full justify-end">
         <div className="flex flex-1 lg:min-h-[900px]">

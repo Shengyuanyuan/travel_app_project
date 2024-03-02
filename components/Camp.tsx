@@ -13,7 +13,7 @@ const CampSite = ({backgroundImage, title, subtitle, peopleJoined}: CampProps) =
     <div className={`h-full w-full min-w-[1100px] ${backgroundImage}
     bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>
       <div className="flex h-full flex-col items-start justify-between
-      p-6 lg:px-20 lg:py-10 border-2 border-blue-500">
+      p-6 lg:px-20 lg:py-10">
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-green-50 p-4">
             <Image
@@ -52,7 +52,7 @@ const CampSite = ({backgroundImage, title, subtitle, peopleJoined}: CampProps) =
 
 const Camp = () => {
   return (
-    <section className="border-2 border-green-500 2xl:max-container 
+    <section className="2xl:max-container 
     relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
       <div className=" hide-scrollbar flex h-[340px] w-full items-start
       justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
@@ -76,7 +76,7 @@ const Camp = () => {
         overflow-hidden rounded-3xl">
           <h2 className="regular-24 md:regular-32 2xl:regular-64
           capitalize text-white">
-            <strong>迷思</strong>方向不知所措嗎？
+            <strong>You Lost</strong> And Not Know The Way？
           </h2>
           <p className="regular-14 xl:regular-16 mt-5 text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In unde cumque modi ut eius magni blanditiis, tempore magnam itaque assumenda, harum recusandae sequi porro.
